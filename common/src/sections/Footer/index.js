@@ -42,21 +42,14 @@ const Footer = () => {
 
               <ul className="social">
                 <li>
-                  <Link href="#">
-                    <a>
-                      <FaFacebookF />
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
+                  <Link href="https://twitter.com/cheatdotdev">
                     <a>
                       <FaTwitter />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="https://www.linkedin.com/company/42845634">
                     <a>
                       <FaLinkedinIn />
                     </a>

@@ -61,6 +61,7 @@ const Main = ({
           }}
         ></script>
         <script
+          id="mcjs"
           dangerouslySetInnerHTML={{
             __html: `
           !function(c,h,i,m,p)

@@ -66,77 +66,14 @@ const Footer = () => {
             </div>
           </Col>
           <Col xs={12} sm={6} lg={3}>
-            <div className="footer-widgets">
-              <h3 className="widget-title">Services</h3>
-              <ul className="widget-catagory">
-                <li>
-                  <Link href="#">
-                    <a> Web Developments </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a> UX/UI Design </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a> Graphic Design</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a>Software Development</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a>Contact</a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            <div className="footer-widgets"></div>
+          </Col>
+          <Col xs={12} sm={6} lg={3}>
+            <div className="footer-widgets"></div>
           </Col>
           <Col xs={12} sm={6} lg={3}>
             <div className="footer-widgets">
-              <h3 className="widget-title">About Us</h3>
-              <ul className="widget-catagory">
-                <li>
-                  <Link href="#">
-                    <a>About Us</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a>Work Portfolio</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a>Team</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a>Plan & Pricing</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    <a>Company News</a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </Col>
-          <Col xs={12} sm={6} lg={3}>
-            <div className="footer-widgets">
-              <h3 className="widget-title">Our Address</h3>
-              <p>
-                200 Rue Dauphine <br />
-                Bonne Terre, MO <br />
-                63628
-              </p>
+              <div className="footer-widgets"></div>
             </div>
           </Col>
         </Row>

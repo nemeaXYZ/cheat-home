@@ -24,7 +24,7 @@ import theme from "../common/src/theme/app/themeStyles";
 
 const Home = () => (
   <ThemeProvider theme={theme}>
-    <Main title="Cheat. Your cofounder and mentor who's seen it all.">
+    <Main title="Cheat is your cofounder and mentor who's seen it all.">
       <GlobalStyle />
       <Navigation />
       <Banner />

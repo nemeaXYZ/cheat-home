@@ -16,7 +16,7 @@ import Pricing from "../common/src/sections/Pricing";
 // import News from "../common/src/sections/News";
 import InstallPWApp from "../common/src/sections/InstallPWApp";
 // import Getapp from "../common/src/sections/Getapp";
-import Contact from "../common/src/sections/Contact";
+// import Contact from "../common/src/sections/Contact";
 import Footer from "../common/src/sections/Footer";
 
 import { GlobalStyle } from "../common/src/sections/app.style";

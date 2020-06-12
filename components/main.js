@@ -59,7 +59,22 @@ const Main = ({
             __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="ee3fd70b-cdd5-416b-b8e3-41b8e4a716b6";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
     `,
           }}
-        ></script>{" "}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          !function(c,h,i,m,p)
+          {
+            ((m = c.createElement(h)),
+            (p = c.getElementsByTagName(h)[0]),
+            (m.async = 1),
+            (m.src = i),
+            p.parentNode.insertBefore(m, p))
+          }
+          (document,"script","https://chimpstatic.com/mcjs-connected/js/users/a74b7dd7b21c486366df50882/c453ec164b39f6b43b7c09a63.js");
+        `,
+          }}
+        ></script>
       </Head>
       <main>{children}</main>
     </React.Fragment>

@@ -28,7 +28,7 @@ const Home = () => (
       <GlobalStyle />
       <Navigation />
       <Banner />
-      <Contact />
+      {/*<Contact />*/}
       <About />
       {/*<Integrations />*/}
       <Features />
